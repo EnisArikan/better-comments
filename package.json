@@ -140,50 +140,95 @@
                     "description": "Tags which are used to color the comments. Changes require a restart of VS Code to take effect",
                     "default": [
                         {
-                            "tag": "!",
-                            "color": "#FF2D00",
-                            "strikethrough": false,
-                            "underline": false,
-                            "backgroundColor": "transparent",
-                            "bold": false,
-                            "italic": false
-                        },
-                        {
-                            "tag": "?",
-                            "color": "#3498DB",
-                            "strikethrough": false,
-                            "underline": false,
-                            "backgroundColor": "transparent",
-                            "bold": false,
-                            "italic": false
-                        },
-                        {
-                            "tag": "//",
-                            "color": "#474747",
-                            "strikethrough": true,
-                            "underline": false,
-                            "backgroundColor": "transparent",
-                            "bold": false,
-                            "italic": false
-                        },
-                        {
-                            "tag": "todo",
-                            "color": "#FF8C00",
-                            "strikethrough": false,
-                            "underline": false,
-                            "backgroundColor": "transparent",
-                            "bold": false,
-                            "italic": false
-                        },
-                        {
-                            "tag": "*",
-                            "color": "#98C379",
-                            "strikethrough": false,
-                            "underline": false,
-                            "backgroundColor": "transparent",
-                            "bold": false,
-                            "italic": false
-                        }
+            "tag": "!", //caution
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "n", //note
+            "color": "#fff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//", //fixed,completed,reviewed
+            "color": "#000",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "td", //todo
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?", //question
+            "color": "#ffe227",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "s", //section
+            "color": "#6930c3",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "l", //link
+            "color": "#11698e",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "r", //review
+            "color": "#80ffdb",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*", //comment
+            "color": "#64DD17",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "fx", //fix
+            "color": "#ff8e71",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
                     ]
                 }
             }
